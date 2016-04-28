@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Footprint</title>
+	<style>
+
+	html,body{
+		height:100%;
+		margin:0;
+		padding: 0;
+	}
+	body{
+		background: #f4f4f4;
+		color:#333333;
+	}
+	header{
+		z-index: 200;
+		position: absolute;
+		top: 15%;
+		left: 10%;
+	}
+	img{
+		opacity: 0.3;
+		position: absolute;
+		top:20px;
+		bottom:20px;
+		right:20px;
+		height: calc(100% - 40px);
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+		font-weight: 300;
+		z-index: 100;
+	}
+	h1{
+		margin:10px 0;
+		font-size:100px;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+		font-weight: 300;
+	}
+	p{
+		max-width: 100%;
+		width: 480px;
+		font-size: 30px;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+		font-weight: 300;
+	}
+	button{
+		margin-top:30px;
+		font-size: 20px;
+		border-radius: 27px;
+		height:54px;
+		border:none;
+		background: rgb(92,227,197);
+		color:white;
+		padding:0 30px;
+		box-shadow: 0 2px 10px rgba(92,227,197,0.5);
+	}
+	.links{
+		margin:20px;
+	}
+	a {
+	    color: #333333;
+	    text-decoration: none;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+		font-weight: 300;
+	}
+
+	a:hover 
+	{
+	     color:#888888; 
+	     text-decoration:none; 
+	     cursor:pointer;  
+	}
+	@media only screen 
+	  and (max-width: 768px) { 
+	  	header{
+	  		top:20px;
+	  		left:10%;
+			max-width: 80%;
+	  	}
+	  	img{
+	  		height:auto;
+	  		top:auto;
+	  		bottom: 20px;
+	  		left:20px;
+	  		width: calc(100% - 40px);
+	  	}
+	  	h1{
+	  		font-size: 80px;
+	  	}
+	  	p{
+	  		font-size: 26px;
+	  	}
+	  	button{
+	  		margin-top: 10px;
+	  	}
+	}
+	</style>
+</head>
+<body>
+<header>
+	<h1>Footprint</h1>
+	<p>Minimalist note editor made for iOS. Experience it now.</p>
+	<button>Download on the <b>App Store</b></button>
+	<div class="links">
+		<a href="mailto:support@soysauceapp.com?Subject=Footprint%20Support" target="_top">Contact us</a>
+	</div>
+</header>
+<img src="images/Footprint-homepage-mockup.png">
+</body>
+</html>
